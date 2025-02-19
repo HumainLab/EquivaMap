@@ -18,3 +18,24 @@ pip install gurobipy
 ## Step 1: Data Preparation 
 
 We construct [EquivaFormulation](https://huggingface.co/datasets/humainlab/EquivaFormulation) based on the [NLP4LP](https://huggingface.co/datasets/udell-lab/NLP4LP). The variations are labeled with different suffixes, which can be found on the Huggingface page.
+
+## Step 2: Mapping Finding
+
+The implementation of EquivaMap can be found in the `evaluation/` folder.
+
+To find the mapping between two formulations, you need to substitute your Openai API-key into the `mapping_finder_.py` file,
+```
+# Set your OpenAI API key
+client = OpenAI(api_key='your-api-key')
+```
+
+and change the directory
+```
+# Base directory containing all the problems
+base_dir = '/Users/stevenzhai/Desktop/MILP_data/sample-data-easy/'
+```
+
+into your local directory. 
+
+## Step 3: Evaluation
+
