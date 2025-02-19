@@ -21,7 +21,7 @@ We construct [EquivaFormulation](https://huggingface.co/datasets/humainlab/Equiv
 
 ## Step 2: Mapping Finding
 
-The implementation of EquivaMap can be found in the `evaluation/` folder.
+The implementation of EquivaMap can be found in the `Evaluation/` folder.
 
 To find the mapping between two formulations, you need to substitute your Openai API-key into the `mapping_finder_.py` file,
 ```
