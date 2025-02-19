@@ -17,4 +17,4 @@ pip install gurobipy
 
 ## Step 1: Data Preparation 
 
-We construct [EquivaFormulation](https://huggingface.co/datasets/humainlab/EquivaFormulation) based on the [NLP4LP](https://huggingface.co/datasets/udell-lab/NLP4LP). The variations are labeled with different suffixes, which can be found in the Huggingface page.
+We construct [EquivaFormulation](https://huggingface.co/datasets/humainlab/EquivaFormulation) based on the [NLP4LP](https://huggingface.co/datasets/udell-lab/NLP4LP). The variations are labeled with different suffixes, which can be found on the Huggingface page.
