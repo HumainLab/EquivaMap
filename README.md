@@ -65,6 +65,11 @@ We also include the data construction files, naive-LLM prompt files and WL-test 
 Please cite the paper and star this repo if you use EquivaMap and find it interesting/useful, thanks! Open an issue if you have any questions.
 
 ```bibtex
-
+@article{zhai2025equivamap,
+  title={EquivaMap: Leveraging LLMs for Automatic Equivalence Checking of Optimization Formulations},
+  author={Zhai, Haotian and Lawless, Connor and Vitercik, Ellen and Leqi, Liu},
+  journal={arXiv preprint arXiv:2502.14760},
+  year={2025}
+}
 ```
 
